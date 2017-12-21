@@ -1,0 +1,6 @@
+a = [5, 10, 15, 20, 25]
+
+def firstlast(input_lst):
+ return [input_lst[0], input_lst[len(input_lst)-1]]
+
+print(firstlast(a))
