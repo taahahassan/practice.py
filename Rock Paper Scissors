@@ -1,0 +1,33 @@
+rps = ["rock","paper","scissors"]
+
+n1 = input("What is your name:")
+n2 = input("And your name:")
+
+in1 = input("%s, Do you choose rock, paper, or scissors?" %n1)
+in2 = input("%s, Do you choose rock, paper, or scissors" %n2)
+
+def compare(u1,u2):
+
+  if u1 == u2:
+    print("It's a tie")
+    
+  elif u1 == "rock":
+    if u2 == "scissors":
+      return ("Rock Wins")
+    else:
+      return ("Paper wins!")
+  elif u1 == "scissors":
+    if u2 == "rock":
+      return ("Rock Wins!")
+    else:
+      return ("Scissors Wins")
+  elif u1 == "paper":
+    if u2 == "rock":
+      return ("Paper Wins!")
+    else:
+      return ("Rock Wins!")
+  
+  else:
+    return("Invalid input! You have not entered rock, paper or scissors, try again.")
+
+print(compare(in1, in2))
