@@ -1,0 +1,10 @@
+l = [2, 4, 6, 8, 10]
+
+def find(input_lst, number):
+  for x in l:
+    if x == number:
+      return True
+    else:
+      return False
+
+print (find(l,5))
