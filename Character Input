@@ -1,0 +1,12 @@
+name = str(input("What is your name? : "))
+print("Your name is %s") %name
+
+age = int(input("What is your age?: "))
+print("Your age is %s") %age
+
+age_100 = (2017 + (100-age))
+message = ("You will be 100 years old in the year %s \n" %(age_100)
+
+extra1 = int(input("Pick a number between 1 & 20:"))
+print (extra1)
+print(message)*extra1
