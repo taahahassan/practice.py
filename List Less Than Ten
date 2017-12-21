@@ -1,0 +1,19 @@
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+  
+print (a)
+
+less_than_5 = []
+
+for number in a:
+  if number < 5:
+    less_than_5.append(number)
+
+print (less_than_5)
+
+less_than_number = []
+number = int(input("Choose a number: "))
+for num in a:
+  if num < number:
+    less_than_number.append(num)
+    
+print (less_than_number)
