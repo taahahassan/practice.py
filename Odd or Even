@@ -1,0 +1,25 @@
+number = int(input("Choose a number: "))
+real = number % 2
+real_2 = number % 4
+
+
+if real == 0:
+  print ("This number is even!")
+else:
+  print ("This number is odd")
+  
+if real_2 == 0:
+  print ("This number is divisible by 4 too!")
+else:
+  print ("This number is not divisible by 4")
+
+
+
+num = int(input("Choose a number: "))
+check = int(input("Choose a second number: "))
+
+
+if num%check == 0:
+  print("They are divisible!")
+else:
+  print ("They are not...")
