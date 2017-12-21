@@ -1,0 +1,9 @@
+a = "My name is Tebo"
+
+def reverse(input_str):
+  b = input_str.split(" ")
+  c = b[::-1]
+  d = " ".join(c)
+  return (d)
+
+print(reverse(a))
